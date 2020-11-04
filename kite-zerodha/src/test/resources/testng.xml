@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extendReport.ExtentTestNGIReporterListener" />
+	</listeners>
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="testClass_pacakge.TestClass"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

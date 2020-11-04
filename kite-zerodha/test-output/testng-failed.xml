@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extendReport.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testClass_pacakge.TestClass">
+        <methods>
+          <include name="verifyorder"/>
+          <include name="launchBrowser"/>
+          <include name="logoutAccount"/>
+          <include name="loginToUserAccount"/>
+          <include name="createObject"/>
+          <include name="closedBrowser"/>
+          <include name="clearObjects"/>
+        </methods>
+      </class> <!-- testClass_pacakge.TestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testClass_pacakge.TestClass">
+        <methods>
+          <include name="verifyorder"/>
+          <include name="launchBrowser"/>
+          <include name="logoutAccount"/>
+          <include name="loginToUserAccount"/>
+          <include name="createObject"/>
+          <include name="closedBrowser"/>
+          <include name="clearObjects"/>
+        </methods>
+      </class> <!-- testClass_pacakge.TestClass -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

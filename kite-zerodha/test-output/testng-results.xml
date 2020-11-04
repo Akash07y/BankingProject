@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42993" started-at="2020-10-29T15:32:23Z" finished-at="2020-10-29T15:33:06Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="42993" started-at="2020-10-29T15:32:23Z" finished-at="2020-10-29T15:33:06Z">
+      <class name="testClass_pacakge.TestClass">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="launchBrowser" is-config="true" duration-ms="6158" started-at="2020-10-29T15:32:23Z" finished-at="2020-10-29T15:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="createObject()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="createObject" is-config="true" duration-ms="64" started-at="2020-10-29T15:32:29Z" finished-at="2020-10-29T15:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method status="PASS" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="loginToUserAccount" is-config="true" duration-ms="2531" started-at="2020-10-29T15:32:30Z" finished-at="2020-10-29T15:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method status="PASS" signature="verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="verifydashboard" duration-ms="2954" started-at="2020-10-29T15:32:32Z" finished-at="2020-10-29T15:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydashboard -->
+        <test-method status="PASS" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="logoutAccount" is-config="true" duration-ms="13341" started-at="2020-10-29T15:32:35Z" finished-at="2020-10-29T15:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydashboard status=SUCCESS method=TestClass.verifydashboard()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method status="PASS" signature="loginToUserAccount()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="loginToUserAccount" is-config="true" duration-ms="1204" started-at="2020-10-29T15:32:48Z" finished-at="2020-10-29T15:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToUserAccount -->
+        <test-method status="PASS" signature="verifyorder()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="verifyorder" duration-ms="2310" started-at="2020-10-29T15:32:50Z" finished-at="2020-10-29T15:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyorder -->
+        <test-method status="PASS" signature="logoutAccount(org.testng.ITestResult)[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="logoutAccount" is-config="true" duration-ms="13374" started-at="2020-10-29T15:32:52Z" finished-at="2020-10-29T15:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyorder status=SUCCESS method=TestClass.verifyorder()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method status="PASS" signature="clearObjects()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="clearObjects" is-config="true" duration-ms="1" started-at="2020-10-29T15:33:05Z" finished-at="2020-10-29T15:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method status="PASS" signature="closedBrowser()[pri:0, instance:testClass_pacakge.TestClass@146ba0ac]" name="closedBrowser" is-config="true" duration-ms="1011" started-at="2020-10-29T15:33:05Z" finished-at="2020-10-29T15:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testClass_pacakge.TestClass -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
