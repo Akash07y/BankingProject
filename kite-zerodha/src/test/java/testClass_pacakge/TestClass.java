@@ -54,7 +54,7 @@ public class TestClass extends Pojo{
 	
 	@BeforeClass
 	public void createObject() {
-		System.out.println("Before Class");
+		System.out.println("Before new updated from github");
 		kiteZerodhaLoginPage = new KiteZerodhaLoginPage(driver);
 		kiteZerodhaHomePage = new KiteZerodhaHomePage(driver);
 		kiteZerodhaLogoutPage = new KiteZerodhaLogoutPage(driver);
