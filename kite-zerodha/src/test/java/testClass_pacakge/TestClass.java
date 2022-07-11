@@ -36,7 +36,7 @@ public class TestClass extends Pojo{
 	@BeforeTest
 	@Parameters("browser")
 	public void launchBrowser(String browser) throws Exception {
-		reporter = new ExtentHtmlReporter("test-output"+File.separator+"ExtendReport"+File.separator+"extendReport.html");
+		reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
 		ExtentReports extend = new ExtentReports();
 		extend.attachReporter(reporter);
 		System.out.println("Before Test");
